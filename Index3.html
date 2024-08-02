@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 03</title>
+</head>
+<body bgcolor="light-blue" text="white">
+    <form novalidate>
+       <label for="name">Username:</label> <br>
+       <input type="text" placeholder="Enter Your Name" id="name" required> <br>
+       <label for="password">Password:</label> <br>
+       <input type="password" placeholder="Enter Your password" id="password" required> <br>
+       <label for="email">Email:</label> <br>
+       <input type="email" placeholder="Enter Your Email" id="email" required> <br>
+       <label for="DOB">Date of Birth:</label> <br>
+       <input type="date" placeholder="Enter Your DOB" id="DOB" required>  <br>
+       <label for="number">Telephone:</label> <br>
+       <input type="tel" placeholder="Enter Your Number" name="number" id="number" required> <br>
+       <label> Gender:</label> <br>
+       <label for="female">Female</label>
+       <input type="radio" id="female" name="Gender">
+       <label for="male">Male</label>
+       <input type="radio" id="male" name="Gender"> <br>
+       <label>Hobbies:</label><br>
+       <label for="write">Writting</label> 
+       <input type="checkbox" id="write" name="Hobbies">
+       <label for="paint">Painting:</label> 
+       <input type="checkbox" id="paint" name="Hobbies">
+       <label for="draw">Drawing</label> 
+       <input type="checkbox" id="draw" name="Hobbies">  <br>
+       <label for="select">Select City:</label> <br>
+       <select name="" id="select">
+        <option value="Multan">Multan</option>
+        <option value="Burewala">Burewala</option>
+        <option value="Lahore">Lahore</option>
+        <option value="Karachi">Karachi</option>
+        <option value="Vehari">Vehari</option>
+       </select> <br>
+    <label for="select">Choose your Country:</label> <br>
+    <input list="Choose" name="Choose" id="select">
+    <datalist id="Choose">
+    <option value="India">
+    <option value="Bangladash">
+    <option value="Australia">
+    <option value="Pakistan">
+     <option value="Afghanastan">
+        <option value="New York">New York</option>
+    </datalist>
+    <br>
+    <label for="points">Price (between 100 and 1000):</label> <br>
+    <input  type="range" id="points" name="points" min="100" max="1000">
+    <br>
+    <label for="about">About:</label> <br>
+    <textarea name="" id="about"  placeholder="Write about yourself" ></textarea>
+    <br> 
+    <input type="submit"  value=" submit your details">
+    <br>
+    <button>Reset</button>
+</form>
+</body>
+</html>
